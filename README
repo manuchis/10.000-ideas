@@ -1,0 +1,4 @@
+This is 10000ideas repo. The public url is http://10.000ideas.com/
+
+Versions are named as date format as "ver"+YEAR+MONTH+DAY : e.g. "ver20120214" 
+You should look for MYSQL connection at classes/class.mysql.php and admin/classes/class.mysql.php
