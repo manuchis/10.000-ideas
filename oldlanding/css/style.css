@@ -1,0 +1,59 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:	---
+Version:	1.0
+Last change:	05/02/08 [fixed Float bug, vf]
+Assigned to:	Manuel Portela
+-------------------------------------------------------------------*/
+
+@import url("reset.css");
+
+body{
+	text-align: center;
+	font: 62.5% Helvetica, Arial;
+}
+
+#container{
+	margin: 0 auto;
+	text-align: left;
+	width: 600px;
+}
+p{
+	padding: 10px 16px;
+	font-size: 1.5em;
+	line-height: 1.6em;
+}
+p span{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	color: #929292;
+}
+h1{
+	padding: 10px 16px;
+	font-size: 2.5em;
+	line-height: 1.6em;
+}
+h2{
+	padding: 10px 16px;
+	font-size: 2em;
+	line-height: 1.6em;
+}
+ul{
+	padding: 0 2em;
+	font-size: 12px;
+
+}
+li{
+
+
+}
+a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #d4257c;
+}
+a:hover{
+	font-weight: bold;
+	color: #00c65c;
+}

@@ -1,0 +1,14 @@
+<p>Hola <#NAME#>, bienvenido a <#PROJECT#>!</p>
+
+<p>
+Para ingresar, debe ir al esta dirección: 
+<a href="<#URL#>"><#URL#></a>
+y usar los siguientes datos:
+</p>
+<p>
+<strong>Usuario:</strong> <#EMAIL#>
+<br />
+<strong>Contraseña:</strong> <#PASSWORD#>
+</p>
+<p>Guarda el password en un lugar seguro.</p>
+<p>El equipo de <#PROJECT#>!</p>
