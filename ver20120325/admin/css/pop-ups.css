@@ -1,0 +1,323 @@
+html{}
+
+body{
+	font-family: georgia,serif;
+	font-size: 0.9em;
+	background: #f9f9f9;
+	margin: 0 10px 10px 10px;
+	padding: 0;
+}
+
+h3{
+	font-style: italic;
+	font-size: 1.5em;
+	color: #666;
+	margin: 10px 0 10px 0;
+}
+
+/* links */
+
+a{
+	color: #21759b;
+	text-decoration: none;
+}
+
+a:visited{
+	color: #2795c7;
+}
+
+a:hover{
+	color: #d54e21;
+}
+
+/* content */
+
+ul li{
+	padding: 5px;
+}
+
+ul li.title{
+	font-weight: bold;
+	text-align: left;
+	color: #333;
+}
+
+/* forms */
+
+form input{
+	font-family: georgia,sans-serif;
+	font-size: 1em;
+}
+
+form input{
+	font-size: 0.9em;
+	padding: 2px;
+	border: 1px solid #bbb;
+}
+
+form input:hover{
+	border: 1px solid #999;
+}
+
+form input, form textarea, form select{
+	font-size: 0.9em;
+	padding: 2px;
+	border: 1px solid #bbb;
+}
+
+form input:hover, form textarea:hover, form select:hover{
+	border: 1px solid #999;
+}
+
+form input.required{
+	background-color: #ffffd4;
+}
+
+form input.error{
+	border: 1px solid #d54e21;
+}
+
+form input.text{
+	width: 100%;
+}
+
+form input.title{
+	font-size: 1.8em;
+	width: 99%;
+}
+
+form textarea{
+	font-family: georgia,sans-serif;
+	font-size: 1em;
+	width: 100%;
+	height: 120px;
+}
+
+form select{
+	width: 100%;
+}
+
+form input.file{
+	font-size: 1.1em;
+	width: 100%;
+}
+
+form input.search{
+	text-indent: -5000px;
+	color: #ddd;
+	width: 19px;
+	background: url(../images/search.png) no-repeat transparent;
+	border: none;
+}
+
+form input.search:hover{
+	border: none;
+	cursor: pointer;
+}
+
+form input.button{
+	font-size: 1em;
+	background: url(../images/blue-grad.png) repeat-x #cbdcf8;
+	color: #2795c7;
+	text-decoration: none;
+	margin-top: 10px;
+	padding: 4px;
+	border: 1px solid #bbb;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px
+}
+
+form input.button:hover{
+	color: #21759B;
+	cursor: pointer;
+}
+
+form select{
+	font-size: 0.9em;
+	margin-top: 10px;
+	padding: 2px;
+	width: 50%;
+	border: 1px solid #bbb;
+}
+
+/* images */
+
+#images{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 340px;
+}
+
+#images .image{
+	text-align: center;
+	border: 1px solid #ddd;
+	padding: 5px;
+	margin: 10px 5px 10px 0;
+	float: left;
+}
+
+#images .image img{
+	background-color: #fff;
+	border: 1px solid #999;
+	padding: 3px;
+}
+
+#images p.date{
+	font-size: 0.9em;
+	color: #414141;
+	margin: 5px 0 5px 0;
+}
+
+#images ul.actions{
+	font-size: 0.9em;
+	background: transparent;
+	margin: 0;
+	padding: 3px;
+}
+
+#images ul.actions li{
+	margin-top: 5px;
+}
+
+#images ul.actions a{
+	color: #21759b;
+	text-decoration: none;
+}
+
+#images ul.actions a:visited{
+	color: #2795c7;
+}
+
+#images ul.actions a:hover{
+	color: #d54e21;
+}
+
+#images ul.actions a.current{
+	color: #999;
+}
+
+/* content */
+
+.actions{
+	background: #ddd;
+	padding: 5px;
+	width: 97%;
+}
+
+/* pager */
+
+#pager{
+	float: right;
+	padding: 8px 3px 3px 3px;
+}
+
+#pager ul{
+	font-size: 0.9em;
+}
+
+#pager ul li{
+	display: inline;
+	vertical-align: text-top;
+}
+
+#pager ul li img{
+	vertical-align: bottom;
+}
+
+#pager ul li a{
+	padding: 2px;
+	text-decoration: none;
+}
+
+#pager ul li a.text:link{
+	color: #333;
+}
+
+#pager ul li a.text:visited{
+	color: #666;
+}
+
+#pager ul li a.text:hover{
+	background-color: #999;
+	color: #fff;
+}
+
+#pager ul li a.active{
+	color: #333;
+	border-bottom: 2px solid #333;
+}
+
+/* common */
+
+a.add-button{
+	background: url(../images/green-grad.png) repeat-x #7eb82e;
+	color: #008000;
+	text-decoration: none;
+	padding: 8px;
+	border: 1px solid #999;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px
+}
+
+a:hover.add-button{
+	color: #00a801;
+	border: 1px solid #777;
+}
+
+.rounded{
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px
+}
+
+.right{
+	float: right;
+}
+
+.left{
+	float: left;
+}
+
+.error{
+	font-weight: normal;
+	font-size: 0.9em;
+	color: #ff0000;
+}
+
+p.error{
+	font-weight: bold;
+	background: url(../images/error.png) no-repeat left #fff4f4;
+	padding: 15px 15px 15px 50px;
+	margin: 10px 0 10px 0;
+	border: 1px solid #ff0000;
+}
+
+p.message{
+	font-weight: bold;
+	background-color: #fff9d7;
+	padding: 15px;
+	margin: 10px 0 10px 0;
+	border: 1px solid #e2c822;
+}
+
+.clear:after{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clear{
+	display: inline-block;
+}
+
+/* Hides from IE-mac \*/
+
+* html .clear{ height: 1%;}
+.clear{display: block;}

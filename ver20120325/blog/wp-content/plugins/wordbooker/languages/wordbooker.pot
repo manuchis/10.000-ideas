@@ -1,0 +1,1123 @@
+# Copyright (C) 2010 Wordbooker
+# This file is distributed under the same license as the Wordbooker package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Wordbooker 2.0.9\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wordbooker\n"
+"POT-Creation-Date: 2012-02-09 11:34:31+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: wordbooker.php:212 wordbooker.php:231 wordbooker.php:259 wordbooker.php:277
+#: wordbooker.php:294 wordbooker.php:306 wordbooker.php:319 wordbooker.php:332
+msgid "Failed to create "
+msgstr ""
+
+#: wordbooker.php:386
+msgid "Database changes being applied"
+msgstr ""
+
+#: wordbooker.php:676
+msgid "Failed to clear error logs."
+msgstr ""
+
+#: wordbooker.php:689
+msgid "Failed to clear Diagnostic logs."
+msgstr ""
+
+#: wordbooker.php:727
+msgid "Diagnostic Messages"
+msgstr ""
+
+#: wordbooker.php:728
+msgid "(Showing %1$s from a total of %2$s rows)"
+msgstr ""
+
+#: wordbooker.php:770
+msgid "Clear Diagnostic Messages"
+msgstr ""
+
+#: wordbooker.php:865
+msgid ""
+"Wordbooker needs the CURL PHP extension to work. Please install / enable it "
+"and try again"
+msgstr ""
+
+#: wordbooker.php:868
+msgid ""
+"Wordbooker needs the JSON PHP extension.  Please install / enable it and try "
+"again "
+msgstr ""
+
+#: wordbooker.php:872
+msgid "Your PHP install is missing <code>simplexml_load_string()</code> "
+msgstr ""
+
+#: wordbooker.php:876
+msgid "Wordbooker needs to be set up"
+msgstr ""
+
+#: wordbooker.php:885
+msgid "for"
+msgstr ""
+
+#: wordbooker.php:894
+msgid "Notices"
+msgstr ""
+
+#: wordbooker.php:974
+msgid "Setup"
+msgstr ""
+
+#: wordbooker.php:982
+msgid ""
+"Secure link ( may require you to add a new certificate for wordbooker.tty."
+"org.uk ) Also you may get a warning about passing data on a non secure "
+"connection :"
+msgstr ""
+
+#: wordbooker.php:986
+msgid ""
+"Wordbooker should now be authorised. Please click on the Reload Page Button"
+msgstr ""
+
+#: wordbooker.php:987
+msgid "Reload Page"
+msgstr ""
+
+#: wordbooker.php:995
+msgid "Status"
+msgstr ""
+
+#: wordbooker.php:1030
+msgid "Wordbooker appears to be configured and working just fine"
+msgstr ""
+
+#: wordbooker.php:1032
+msgid ""
+"If you like, you can start over from the beginning (this does not delete "
+"your posting and comment history)"
+msgstr ""
+
+#: wordbooker.php:1036
+msgid "Wordbooker is able to connect to Facebook"
+msgstr ""
+
+#: wordbooker.php:1040
+msgid "Reset User Session"
+msgstr ""
+
+#: wordbooker.php:1041
+msgid "Refresh Status"
+msgstr ""
+
+#: wordbooker.php:1045
+msgid "Recent Facebook Activity for this site"
+msgstr ""
+
+#: wordbooker.php:1072
+msgid "Support"
+msgstr ""
+
+#: wordbooker.php:1074
+msgid "For feature requests, bug reports, and general support :"
+msgstr ""
+
+#: wordbooker.php:1076 wordbooker.php:1077
+msgid "Check the "
+msgstr ""
+
+#: wordbooker.php:1076
+msgid "User Guide"
+msgstr ""
+
+#: wordbooker.php:1077
+msgid "WordPress.org Notes"
+msgstr ""
+
+#: wordbooker.php:1078
+msgid "Try the "
+msgstr ""
+
+#: wordbooker.php:1078
+msgid "Wordbooker Support Forums"
+msgstr ""
+
+#: wordbooker.php:1079
+msgid "Enhancement requests can be made at the "
+msgstr ""
+
+#: wordbooker.php:1079
+msgid "Wordbooker Project on Google Code"
+msgstr ""
+
+#: wordbooker.php:1080
+msgid "Consider upgrading to the "
+msgstr ""
+
+#: wordbooker.php:1080
+msgid "latest stable release"
+msgstr ""
+
+#: wordbooker.php:1080
+msgid " of WordPress. "
+msgstr ""
+
+#: wordbooker.php:1081
+msgid "Read the release notes for Wordbooker on the "
+msgstr ""
+
+#: wordbooker.php:1081
+msgid "blog."
+msgstr ""
+
+#: wordbooker.php:1082
+msgid "Check the Wordbooker "
+msgstr ""
+
+#: wordbooker.php:1082
+msgid "FAQs"
+msgstr ""
+
+#: wordbooker.php:1085
+msgid "Please provide the following information about your installation:"
+msgstr ""
+
+#: wordbooker.php:1110
+msgid "Curl is not installed"
+msgstr ""
+
+#: wordbooker.php:1121
+msgid "Curl is available but cannot access Facebook - This is a problem ("
+msgstr ""
+
+#: wordbooker.php:1122
+msgid "Curl is available and can access Facebook - All is OK"
+msgstr ""
+
+#: wordbooker.php:1165
+msgid "<li>XML: your PHP is missing <code>simplexml_load_string()</code></li>"
+msgstr ""
+
+#: wordbooker.php:1177
+msgid "<li> Active Plugins : <b></li>"
+msgstr ""
+
+#: wordbooker.php:1207
+msgid "Your system does not meet the"
+msgstr ""
+
+#: wordbooker.php:1207 wordbooker.php:1215
+msgid "WordPress minimum requirements"
+msgstr ""
+
+#: wordbooker.php:1207
+msgid "Things are unlikely to work."
+msgstr ""
+
+#: wordbooker.php:1215
+msgid "Please ensure that your system meets the"
+msgstr ""
+
+#: wordbooker.php:1429
+msgid "Share"
+msgstr ""
+
+#: wordbooker.php:1435
+msgid "Read entire article"
+msgstr ""
+
+#: wordbooker.php:1439
+msgid "Primary"
+msgstr ""
+
+#: wordbooker.php:1443
+msgid "Secondary"
+msgstr ""
+
+#: wordbooker.php:1447
+msgid "Fan Wall"
+msgstr ""
+
+#: wordbooker.php:1447
+msgid "Group wall"
+msgstr ""
+
+#: wordbooker.php:2126
+msgid "Publish content to your Wall/Fan pages"
+msgstr ""
+
+#: wordbooker.php:2126
+msgid "Publish Actions to your Timeline"
+msgstr ""
+
+#: wordbooker.php:2126
+msgid "Update your status"
+msgstr ""
+
+#: wordbooker.php:2126
+msgid "Read your News Feed and Wall"
+msgstr ""
+
+#: wordbooker.php:2126
+msgid "Create notes"
+msgstr ""
+
+#: wordbooker.php:2126
+msgid "Upload photos"
+msgstr ""
+
+#: wordbooker.php:2126
+msgid "Upload videos"
+msgstr ""
+
+#: wordbooker.php:2126
+msgid "Manage_pages"
+msgstr ""
+
+#: wordbooker.php:2126
+msgid "Read friend lists"
+msgstr ""
+
+#: wordbooker.php:2127
+msgid "but requires authorization to "
+msgstr ""
+
+#: wordbooker.php:2128
+msgid " on Facebook. Click on the following link to grant permission"
+msgstr ""
+
+#: wordbooker.php:2145
+msgid "Save Configuration"
+msgstr ""
+
+#: wordbooker.php:2557
+msgid "Every 10 Minutes"
+msgstr ""
+
+#: wordbooker.php:2562
+msgid "Every 15 Minutes"
+msgstr ""
+
+#: wordbooker.php:2567
+msgid "Every 20 Minutes"
+msgstr ""
+
+#: wordbooker.php:2572
+msgid "Every 30 Minutes"
+msgstr ""
+
+#: wordbooker.php:2577
+msgid "Every 45 Minutes"
+msgstr ""
+
+#: wordbooker.php:2582
+msgid "Every 2 Hours"
+msgstr ""
+
+#: includes/wordbooker_wb_widget.php:33
+msgid ""
+"Allows you to have one or more Facebook Status widgets in your sidebar. The "
+"widget picks up the user id of the person who drags it onto the side bar"
+msgstr ""
+
+#: includes/wordbooker_wb_widget.php:80
+msgid "Facebook Status"
+msgstr ""
+
+#: includes/wordbooker_wb_widget.php:90 includes/wordbooker_fb_widget.php:162
+msgid "Title of Widget"
+msgstr ""
+
+#: includes/wordbooker_wb_widget.php:91
+msgid "Display this name"
+msgstr ""
+
+#: includes/wordbooker_wb_widget.php:93
+msgid "Date Format"
+msgstr ""
+
+#: includes/wordbooker_wb_widget.php:100
+msgid "Facebook Text style"
+msgstr ""
+
+#: includes/wordbooker_wb_widget.php:122
+msgid "second"
+msgstr ""
+
+#: includes/wordbooker_wb_widget.php:122
+msgid "minute"
+msgstr ""
+
+#: includes/wordbooker_wb_widget.php:122
+msgid "hour"
+msgstr ""
+
+#: includes/wordbooker_wb_widget.php:122
+msgid "day"
+msgstr ""
+
+#: includes/wordbooker_wb_widget.php:122
+msgid "week"
+msgstr ""
+
+#: includes/wordbooker_wb_widget.php:122
+msgid "month"
+msgstr ""
+
+#: includes/wordbooker_wb_widget.php:122
+msgid "year"
+msgstr ""
+
+#: includes/wordbooker_wb_widget.php:122
+msgid "decade"
+msgstr ""
+
+#: includes/wordbooker_wb_widget.php:136
+msgid "ago"
+msgstr ""
+
+#: includes/wordbooker_wb_widget.php:140
+msgid "from now"
+msgstr ""
+
+#: includes/wordbooker_wb_widget.php:151
+msgid "an"
+msgstr ""
+
+#: includes/wordbooker_wb_widget.php:153
+msgid "about"
+msgstr ""
+
+#: includes/wordbooker_fb_widget.php:37
+msgid ""
+"Allows you to have multiple Like/Fan boxes. Fan pages cane be picked from a "
+"dropdown list in the options. Each user gets the choice of all the FB Fan "
+"pages they administer"
+msgstr ""
+
+#: includes/wordbooker_fb_widget.php:117 includes/wordbooker_fb_widget.php:164
+msgid "Fan Page"
+msgstr ""
+
+#: includes/wordbooker_fb_widget.php:176
+msgid "Include Stream "
+msgstr ""
+
+#: includes/wordbooker_fb_widget.php:179
+msgid "Include Header "
+msgstr ""
+
+#: includes/wordbooker_fb_widget.php:182
+msgid "Colour Scheme"
+msgstr ""
+
+#: includes/wordbooker_fb_widget.php:188
+msgid "Show Faces "
+msgstr ""
+
+#: includes/wordbooker_fb_widget.php:191
+msgid "Widget Width"
+msgstr ""
+
+#: includes/wordbooker_fb_widget.php:193
+msgid "Widget Height"
+msgstr ""
+
+#: includes/wordbooker_fb_widget.php:195
+msgid "Widget Border Colour"
+msgstr ""
+
+#: includes/wordbooker_cron.php:115
+msgid " (Application)"
+msgstr ""
+
+#: includes/wordbooker_options.php:25 includes/wordbooker_options.php:113
+msgid "Posted a new post on their blog"
+msgstr ""
+
+#: includes/wordbooker_options.php:26 includes/wordbooker_options.php:115
+msgid ": New blog post :  %title% - %link%"
+msgstr ""
+
+#: includes/wordbooker_options.php:81
+msgid "Options Page"
+msgstr ""
+
+#: includes/wordbooker_options.php:84
+#: includes/wordbooker_posting_options.php:76
+msgid "WARNING : Wordbooker is DISABLED"
+msgstr ""
+
+#: includes/wordbooker_options.php:85
+#: includes/wordbooker_posting_options.php:77
+msgid ""
+"WARNING : Wordbooker is in TEST mode - NO Posts will be made to Facebook"
+msgstr ""
+
+#: includes/wordbooker_options.php:142
+msgid "Your user level settings have been reset."
+msgstr ""
+
+#: includes/wordbooker_options.php:143
+msgid "Your user level settings have been saved."
+msgstr ""
+
+#: includes/wordbooker_options.php:146
+msgid "Security hash missing."
+msgstr ""
+
+#: includes/wordbooker_options.php:179
+msgid "General Posting Options"
+msgstr ""
+
+#: includes/wordbooker_options.php:180
+msgid "Facebook Like and Share Options"
+msgstr ""
+
+#: includes/wordbooker_options.php:181
+msgid "Comment Handling Options"
+msgstr ""
+
+#: includes/wordbooker_options.php:182
+msgid "Advanced Options"
+msgstr ""
+
+#: includes/wordbooker_options.php:185
+msgid "Blog Level Settings"
+msgstr ""
+
+#: includes/wordbooker_options.php:208
+msgid "Save Blog Level Options"
+msgstr ""
+
+#: includes/wordbooker_options.php:208
+msgid "Reset to system Defaults"
+msgstr ""
+
+#: includes/wordbooker_options.php:220 includes/wordbooker_options.php:565
+msgid "Default Publish Post to Facebook"
+msgstr ""
+
+#: includes/wordbooker_options.php:223 includes/wordbooker_options.php:574
+msgid "Default Publish Page to Facebook"
+msgstr ""
+
+#: includes/wordbooker_options.php:226
+msgid "Unless changed, Posts will be published on the Facebook belonging to :"
+msgstr ""
+
+#: includes/wordbooker_options.php:228
+msgid "Current Logged in user"
+msgstr ""
+
+#: includes/wordbooker_options.php:240
+msgid "Publish Posts by non Wordbooker users"
+msgstr ""
+
+#: includes/wordbooker_options.php:243
+msgid "Allow non Wordbooker users to chose to publish a post"
+msgstr ""
+
+#: includes/wordbooker_options.php:246 includes/wordbooker_options.php:657
+#: includes/wordbooker_posting_options.php:153
+msgid "Length of Extract"
+msgstr ""
+
+#: includes/wordbooker_options.php:247 includes/wordbooker_options.php:658
+#: includes/wordbooker_posting_options.php:154
+msgid "256 (Default) "
+msgstr ""
+
+#: includes/wordbooker_options.php:253 includes/wordbooker_options.php:669
+msgid "Post Attribute"
+msgstr ""
+
+#: includes/wordbooker_options.php:255
+msgid "Facebook Status Attribute"
+msgstr ""
+
+#: includes/wordbooker_options.php:258
+msgid "Action Link Option "
+msgstr ""
+
+#: includes/wordbooker_options.php:259
+msgid "Share Link "
+msgstr ""
+
+#: includes/wordbooker_options.php:259 includes/wordbooker_options.php:673
+#: includes/wordbooker_posting_options.php:162
+msgid "Read Full Article"
+msgstr ""
+
+#: includes/wordbooker_options.php:265 includes/wordbooker_options.php:680
+msgid "Enable Extended description for Share Link"
+msgstr ""
+
+#: includes/wordbooker_options.php:267
+msgid "Length of Description Meta-Tag"
+msgstr ""
+
+#: includes/wordbooker_options.php:283 includes/wordbooker_options.php:286
+#: includes/wordbooker_options.php:567 includes/wordbooker_options.php:576
+#: includes/wordbooker_options.php:682
+#: includes/wordbooker_posting_options.php:183
+#: includes/wordbooker_posting_options.php:191
+#: includes/wordbooker_posting_options.php:203
+#: includes/wordbooker_posting_options.php:211
+msgid "No"
+msgstr ""
+
+#: includes/wordbooker_options.php:283 includes/wordbooker_options.php:286
+#: includes/wordbooker_options.php:682
+#: includes/wordbooker_posting_options.php:183
+#: includes/wordbooker_posting_options.php:191
+#: includes/wordbooker_posting_options.php:203
+#: includes/wordbooker_posting_options.php:211
+msgid "Yes"
+msgstr ""
+
+#: includes/wordbooker_options.php:284
+msgid "Above Post "
+msgstr ""
+
+#: includes/wordbooker_options.php:284
+msgid "Below Post"
+msgstr ""
+
+#: includes/wordbooker_options.php:284 includes/wordbooker_options.php:447
+msgid "Defined by theme template"
+msgstr ""
+
+#: includes/wordbooker_options.php:284 includes/wordbooker_options.php:447
+msgid "Defined by Tag in post"
+msgstr ""
+
+#: includes/wordbooker_options.php:287
+msgid "No - use Send instead of Like"
+msgstr ""
+
+#: includes/wordbooker_options.php:287
+msgid "Yes - use both Like and Send"
+msgstr ""
+
+#: includes/wordbooker_options.php:288
+msgid "Include a Facebook Like button in blog"
+msgstr ""
+
+#: includes/wordbooker_options.php:290
+msgid "Show Facebook Like button on front page"
+msgstr ""
+
+#: includes/wordbooker_options.php:293
+msgid "Show Facebook Like button on Category pages"
+msgstr ""
+
+#: includes/wordbooker_options.php:296
+msgid "Show Facebook Like button on Pages"
+msgstr ""
+
+#: includes/wordbooker_options.php:299
+msgid "Show Facebook Like button in each post"
+msgstr ""
+
+#: includes/wordbooker_options.php:302
+msgid "Don't show Facebook Like / Send Button on Sticky Posts"
+msgstr ""
+
+#: includes/wordbooker_options.php:307
+msgid "Width of Facebook Like box"
+msgstr ""
+
+#: includes/wordbooker_options.php:310
+msgid "Facebook Like - Display Button "
+msgstr ""
+
+#: includes/wordbooker_options.php:316
+msgid "Facebook Like - Verb to Display"
+msgstr ""
+
+#: includes/wordbooker_options.php:322
+msgid "Facebook Like - Colour Scheme"
+msgstr ""
+
+#: includes/wordbooker_options.php:328
+msgid "Facebook Like - Display Font"
+msgstr ""
+
+#: includes/wordbooker_options.php:334
+msgid "Facebook Like - Layout Style"
+msgstr ""
+
+#: includes/wordbooker_options.php:340
+msgid "Facebook Like - Display Faces (Standard layout only)"
+msgstr ""
+
+#: includes/wordbooker_options.php:347
+msgid "Combine Send with Like"
+msgstr ""
+
+#: includes/wordbooker_options.php:353
+msgid "Facebook Send - Display Button"
+msgstr ""
+
+#: includes/wordbooker_options.php:360
+msgid "Include a Facebook Share button in blog"
+msgstr ""
+
+#: includes/wordbooker_options.php:364
+msgid "Facebook Share - Display Button "
+msgstr ""
+
+#: includes/wordbooker_options.php:370
+msgid "Show Facebook Share button on front page"
+msgstr ""
+
+#: includes/wordbooker_options.php:373
+msgid "Show Facebook Share button on Category pages"
+msgstr ""
+
+#: includes/wordbooker_options.php:376
+msgid "Show Facebook Share button on Pages"
+msgstr ""
+
+#: includes/wordbooker_options.php:379
+msgid "Show Facebook Share button in each post"
+msgstr ""
+
+#: includes/wordbooker_options.php:381
+msgid "Don't show Facebook Share button on Sticky Posts"
+msgstr ""
+
+#: includes/wordbooker_options.php:384
+msgid "Do not replace Gravtars with Facebook Photos"
+msgstr ""
+
+#: includes/wordbooker_options.php:388
+msgid "Use Frictionless sharing/ Timeline instead of Share"
+msgstr ""
+
+#: includes/wordbooker_options.php:406
+msgid "Wordpress Comment handling Options"
+msgstr ""
+
+#: includes/wordbooker_options.php:407
+msgid "Never "
+msgstr ""
+
+#: includes/wordbooker_options.php:408
+msgid "Manual Polling "
+msgstr ""
+
+#: includes/wordbooker_options.php:412
+msgid "Process Comments  "
+msgstr ""
+
+#: includes/wordbooker_options.php:417
+msgid "Next Scheduled fetch is in"
+msgstr ""
+
+#: includes/wordbooker_options.php:418
+msgid "Enable Comment processing"
+msgstr ""
+
+#: includes/wordbooker_options.php:420
+msgid "Disable Comment Importing"
+msgstr ""
+
+#: includes/wordbooker_options.php:422
+msgid "Disable Comment Exporting"
+msgstr ""
+
+#: includes/wordbooker_options.php:425
+msgid "[Comment imported from blog]"
+msgstr ""
+
+#: includes/wordbooker_options.php:427
+msgid "Comment Tag"
+msgstr ""
+
+#: includes/wordbooker_options.php:430
+msgid "Facebook Comment Structure"
+msgstr ""
+
+#: includes/wordbooker_options.php:432
+msgid "Assign this email address to comments"
+msgstr ""
+
+#: includes/wordbooker_options.php:434
+msgid "Import Comments from Facebook for new Wordbooker Posts"
+msgstr ""
+
+#: includes/wordbooker_options.php:436
+msgid "Push Comments up to Facebook for new posts"
+msgstr ""
+
+#: includes/wordbooker_options.php:438
+msgid "Auto Approve imported comments"
+msgstr ""
+
+#: includes/wordbooker_options.php:441
+msgid "Run Comment Handling Now"
+msgstr ""
+
+#: includes/wordbooker_options.php:444
+msgid "Facebook Comment Box Options"
+msgstr ""
+
+#: includes/wordbooker_options.php:445
+msgid "Enable Facebook Comment handling  "
+msgstr ""
+
+#: includes/wordbooker_options.php:447
+msgid "Created in line below post"
+msgstr ""
+
+#: includes/wordbooker_options.php:449
+msgid "Comment placing "
+msgstr ""
+
+#: includes/wordbooker_options.php:455
+msgid "Comment Box - Colour Scheme"
+msgstr ""
+
+#: includes/wordbooker_options.php:461
+msgid "All Wordbooker users can moderate comments  "
+msgstr ""
+
+#: includes/wordbooker_options.php:466
+msgid "Use this Facebook Application ID for comment moderation"
+msgstr ""
+
+#: includes/wordbooker_options.php:470
+msgid "Width of comment box"
+msgstr ""
+
+#: includes/wordbooker_options.php:475
+msgid "Number of comments to display"
+msgstr ""
+
+#: includes/wordbooker_options.php:480
+msgid "Enable notification of new comments"
+msgstr ""
+
+#: includes/wordbooker_options.php:483
+msgid "Facebook comment handling should be enabled on new posts"
+msgstr ""
+
+#: includes/wordbooker_options.php:493
+msgid "User who should get Admin level diagnostics"
+msgstr ""
+
+#: includes/wordbooker_options.php:499
+msgid "Show Everything and I mean everything"
+msgstr ""
+
+#: includes/wordbooker_options.php:499
+msgid "Show everything but Cache Diagnostics"
+msgstr ""
+
+#: includes/wordbooker_options.php:499
+msgid "Show result of major actions"
+msgstr ""
+
+#: includes/wordbooker_options.php:499
+msgid "Don't show anything apart from Fatal errors"
+msgstr ""
+
+#: includes/wordbooker_options.php:499
+msgid "Disabled (Show nothing at all)"
+msgstr ""
+
+#: includes/wordbooker_options.php:500
+msgid "Post Diagnostics display level"
+msgstr ""
+
+#: includes/wordbooker_options.php:506
+msgid "Clear detailed diagnostics on successful post"
+msgstr ""
+
+#: includes/wordbooker_options.php:508
+msgid "Disable the use of short URLs in links posted to Facebook"
+msgstr ""
+
+#: includes/wordbooker_options.php:511
+msgid "Include FB Recent activity on Wordbooker Options page"
+msgstr ""
+
+#: includes/wordbooker_options.php:514
+msgid "Use Iframes instead of FBXML to render FB features"
+msgstr ""
+
+#: includes/wordbooker_options.php:517
+msgid "Use Site URL not Blog Description in Wall Posts"
+msgstr ""
+
+#: includes/wordbooker_options.php:520
+msgid "Check the following Custom Post Meta tags for images"
+msgstr ""
+
+#: includes/wordbooker_options.php:523
+msgid ""
+"Use Image from Custom Meta instead of Featured Image for Open Graph image"
+msgstr ""
+
+#: includes/wordbooker_options.php:526
+msgid "Default Open Graph image to use for posts"
+msgstr ""
+
+#: includes/wordbooker_options.php:529
+msgid "Use the above image instead of a blank for posts with no image"
+msgstr ""
+
+#: includes/wordbooker_options.php:532
+msgid "Disable in-line production of OpenGraph Tags"
+msgstr ""
+
+#: includes/wordbooker_options.php:535
+msgid "Only Pretend to Publish on Facebook - TEST MODE"
+msgstr ""
+
+#: includes/wordbooker_options.php:537
+msgid "Disable ALL Wordbooker functionality"
+msgstr ""
+
+#: includes/wordbooker_options.php:556
+msgid "User Level Settings"
+msgstr ""
+
+#: includes/wordbooker_options.php:557
+msgid ""
+"If set, these options will override the Blog Level options for this user"
+msgstr ""
+
+#: includes/wordbooker_options.php:567 includes/wordbooker_options.php:576
+#: includes/wordbooker_options.php:673 includes/wordbooker_options.php:682
+msgid "Same as Blog"
+msgstr ""
+
+#: includes/wordbooker_options.php:597 includes/wordbooker_options.php:634
+#: includes/wordbooker_posting_options.php:95
+#: includes/wordbooker_posting_options.php:131
+msgid "Post to the following Wall"
+msgstr ""
+
+#: includes/wordbooker_options.php:609
+#: includes/wordbooker_posting_options.php:107
+#: includes/wordbooker_posting_options.php:121
+msgid "As a Wall Post"
+msgstr ""
+
+#: includes/wordbooker_options.php:609
+#: includes/wordbooker_posting_options.php:107
+#: includes/wordbooker_posting_options.php:121
+msgid "As a Note"
+msgstr ""
+
+#: includes/wordbooker_options.php:609
+#: includes/wordbooker_posting_options.php:107
+#: includes/wordbooker_posting_options.php:121
+msgid "As a Status Update"
+msgstr ""
+
+#: includes/wordbooker_options.php:609
+#: includes/wordbooker_posting_options.php:107
+#: includes/wordbooker_posting_options.php:121
+msgid "As a Link"
+msgstr ""
+
+#: includes/wordbooker_options.php:620
+#: includes/wordbooker_posting_options.php:118
+msgid "Post to my Personal Wall"
+msgstr ""
+
+#: includes/wordbooker_options.php:665
+msgid "Facebook Status Text"
+msgstr ""
+
+#: includes/wordbooker_options.php:672
+#: includes/wordbooker_posting_options.php:161
+msgid "Action Link Option"
+msgstr ""
+
+#: includes/wordbooker_options.php:673
+msgid "None"
+msgstr ""
+
+#: includes/wordbooker_options.php:673
+#: includes/wordbooker_posting_options.php:162
+msgid "Share Link"
+msgstr ""
+
+#: includes/wordbooker_options.php:691
+msgid "Use Post Thumbnail only"
+msgstr ""
+
+#: includes/wordbooker_options.php:695
+msgid "Use Post Excerpt"
+msgstr ""
+
+#: includes/wordbooker_options.php:699
+msgid "Show Status for"
+msgstr ""
+
+#: includes/wordbooker_options.php:699
+msgid "My Own Profile"
+msgstr ""
+
+#: includes/wordbooker_options.php:711
+msgid "Disable Facebook User information in Status"
+msgstr ""
+
+#: includes/wordbooker_options.php:714
+msgid "Save User Options"
+msgstr ""
+
+#: includes/wordbooker_options.php:714
+msgid "Reset to Blog Defaults"
+msgstr ""
+
+#: includes/wordbooker_options.php:729
+msgid "Donate"
+msgstr ""
+
+#: includes/wordbooker_options.php:733
+msgid ""
+"Thank you for contributing towards the support and development of this "
+"extension."
+msgstr ""
+
+#: includes/wordbooker_options.php:737
+msgid ""
+"You're using the Premium options in Wordbooker. You really should contribute "
+"something to the support and development of this plugin.  Please provide "
+"your FB Id number and your website when making payment so your details can "
+"be added to the 'thanks' list"
+msgstr ""
+
+#: includes/wordbooker_options.php:739
+msgid ""
+"If you've found this extension useful then please feel free to donate to its "
+"support and future development. Please provide your FB Id number and your "
+"website when making payment so your details can be added to the 'thanks' list"
+msgstr ""
+
+#: includes/wordbooker_options.php:748
+msgid "Thanks"
+msgstr ""
+
+#: includes/wordbooker_options.php:750
+msgid ""
+"The following people and blogs have contributed to the ongoing development "
+"of this plugin : "
+msgstr ""
+
+#: includes/wordbooker_options.php:755
+msgid ""
+"The following people have contributed language files to allow Wordbooker to "
+"be used in different languages : "
+msgstr ""
+
+#: includes/wordbooker_options.php:757
+msgid "German"
+msgstr ""
+
+#: includes/wordbooker_options.php:758
+msgid "French"
+msgstr ""
+
+#: includes/wordbooker_options.php:759
+msgid "Russian"
+msgstr ""
+
+#: includes/wordbooker_posting_options.php:18
+#: includes/wordbooker_posting_options.php:19
+msgid "WordBooker Options"
+msgstr ""
+
+#: includes/wordbooker_posting_options.php:63
+#: includes/wordbooker_posting_options.php:70
+msgid "Publish this post to Facebook"
+msgstr ""
+
+#: includes/wordbooker_posting_options.php:66
+msgid "Publish this page to Facebook"
+msgstr ""
+
+#: includes/wordbooker_posting_options.php:81
+msgid "The following options override the defaults set on the options page"
+msgstr ""
+
+#: includes/wordbooker_posting_options.php:89
+msgid "Personal Wall"
+msgstr ""
+
+#: includes/wordbooker_posting_options.php:172
+msgid " Use Thumbnail as only image"
+msgstr ""
+
+#: includes/wordbooker_posting_options.php:177
+msgid "Facebook Status Update text"
+msgstr ""
+
+#: includes/wordbooker_posting_options.php:182
+msgid "Show Facebook Like/Send for this Page"
+msgstr ""
+
+#: includes/wordbooker_posting_options.php:190
+msgid "Show Facebook Share for this Page"
+msgstr ""
+
+#: includes/wordbooker_posting_options.php:202
+msgid "Show Facebook Like/Send for this Post"
+msgstr ""
+
+#: includes/wordbooker_posting_options.php:210
+msgid "Show Facebook Share for this Post"
+msgstr ""
+
+#: includes/wordbooker_posting_options.php:220
+msgid "Push Comments from this post to Facebook"
+msgstr ""
+
+#: includes/wordbooker_posting_options.php:221
+msgid "Pull Comments from Facebook for this post"
+msgstr ""
+
+#: includes/wordbooker_posting_options.php:222
+msgid "Enable Facebook Comments for this post"
+msgstr ""
+
+#: includes/wordbooker_posting_options.php:224
+msgid "Wordbooker Blog level settings are in force"
+msgstr ""
+
+#: includes/wordbooker_posting_options.php:228
+msgid "Publish This Post to Facebook"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Wordbooker"
+msgstr ""
+
+#. #-#-#-#-#  wordbooker.pot (Wordbooker 2.0.9)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  wordbooker.pot (Wordbooker 2.0.9)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://wordbooker.tty.org.uk"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Provides integration between your blog and your Facebook account. Navigate "
+"to <a href=\"options-general.php?page=wordbooker\">Settings &rarr; "
+"Wordbooker</a> for configuration."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Steve Atty"
+msgstr ""

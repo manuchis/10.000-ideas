@@ -1,0 +1,18 @@
+<?php
+# This is the configuration file for the premium options.
+# The APIKEY, SECRET and FB_ID are all obtained when you register an application at http://www.facebook.com/developers/ 
+
+define('WORDBOOKER_FB_APIKEY', '0138375357c1eb1257ed9970ec1a274c');
+define('WORDBOOKER_FB_SECRET', '4310b484ec5236694cfa4b94166aca61');
+define('WORDBOOKER_FB_ID', '111687885534181');
+
+# This is the name that will be used in Admin menu and elsewhere. 
+define('WORDBOOKER_APPLICATION_NAME','Wordbooker fruitbat');
+
+# If you run a Multiblog site and want all the Posts to go to Facebook using the app identified above but want users to be able to use their own app for FB comment moderation set the following line to true
+define ('WORDBOOKER_MULTI',true);
+
+# Don't edit below this line or things might stop working
+define ('WORDBOOKER_PREMIUM',true);
+
+?>

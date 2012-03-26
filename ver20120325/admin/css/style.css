@@ -1,0 +1,822 @@
+/*======================================================
+
+CSS StyleSheet for the CMS Content Management System
+
+Author: Fausto Carrera
+Website: http://www.faustocarrera.com.ar
+E-mail: yo@faustocarrera.com.ar
+
+1.- body
+2.- structure
+3.- header
+4.- content
+5.- pager
+6.- tables
+7.- images
+8.- footer
+9.- forms
+10.- common
+
+======================================================*/
+
+/* body */
+
+html{
+	height: 100%;
+}
+
+body{
+	font-family: georgia,serif;
+	font-size: 0.8em;
+	background: #f9f9f9;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+/* structure */
+
+body > #wrapper{
+	height: auto;
+	min-height: 100%;
+}
+
+#wrapper{
+	min-width: 980px;
+	height: 100%;
+}
+
+#main {padding-bottom: 15px;}  /* must be same height as the footer */
+
+/* header */
+
+#header{
+	background: #414141;
+	color: #fff;
+	width: 100%;
+	height: 33px;
+	border-bottom: 1px solid #333;
+}
+
+#header a{
+	color: #fff;
+	text-decoration: none;
+}
+
+#header a:hover{
+	color: #ddd;
+	text-decoration: underline;
+}
+
+#header #logo{
+	width: 20%;
+	min-width: 220px;
+	float: left;
+	text-align: center;
+}
+
+#header #go{
+	padding: 11px 0 0 25px;
+	float:left;
+}
+
+#header #info{
+	padding: 11px 10px 0 0;
+	float:right;
+}
+
+/* content */
+
+#menu{
+	width: 15%;
+	min-width: 140px;
+	height: 100%;
+	padding: 10px;
+	float: left;
+}
+
+#menu a{
+	color: #21759b;
+	text-decoration: none;
+}
+
+#menu a:visited{
+	color: #2795c7;
+}
+
+#menu a:hover{
+	color: #d54e21;
+}
+
+#menu a.current{
+	color: #999;
+}
+
+#menu ul{
+	display: block;
+	padding: 5px;
+	margin: 5px 0 10px 0;
+	width: 100%;
+	border-right: 1px solid #ddd;
+}
+
+#menu ul li{
+	margin: 5px 0 5px 0;
+	padding: 3px;
+}
+
+#menu ul li.separator{
+	margin: 0;
+	padding: 0;
+	border-top: 1px dashed #bbb;
+}
+
+#content{
+	width: 81%;
+	min-width: 810px;
+	padding: 5px;
+	float: right;
+}
+
+#content h3{
+	font-style: italic;
+	font-size: 2em;
+	color: #666;
+	margin: 10px 0 10px 0;
+}
+
+#content ul.sub-menu{
+	background: url(../images/gray-grad.png) repeat-x #ddd;
+	border: 1px solid #bbb;
+	margin: 20px 0 20px 0;
+	padding: 8px;
+	width: 97%;
+}
+
+#content ul.sub-menu li{
+	padding: 0 10px 0 10px;;
+	display: inline;
+	border-right: 1px solid #999;
+}
+
+#content ul.sub-menu a{
+	color: #666;
+	text-decoration: none;
+}
+
+#content ul.sub-menu a:hover{
+	color: #414141;
+}
+
+#content .info-widget{
+	margin-bottom: 20px;
+	border: 1px solid #ddd;
+}
+
+#content .info-widget a{
+	font-weight: normal;
+	font-size: 0.9em;
+	color: #21759b;
+	text-decoration: none;
+}
+
+#content .info-widget a:visited{
+	color: #2795c7;
+}
+
+#content .info-widget a:hover{
+	color: #d54e21;
+}
+
+#content .info-widget .header{
+	font-size: 1.1em;
+	font-weight: bold;
+	background: url(../images/gray-grad.png) repeat-x #ddd;
+	padding: 8px;
+	border-bottom: 1px solid #bbb;
+}
+
+#content .info-widget .content-scroll{
+	padding: 0;
+	height: 260px;
+	overflow: auto;
+}
+
+#content .info-widget .content-scroll table{
+	width: 98%;
+}
+
+#content .info-widget .content-scroll table tr td{
+	padding: 8px;
+	border-bottom: 1px solid #ddd;
+}
+
+#content .info-widget .content-scroll table tr:hover{
+	background-color: #e7f0f9;
+}
+
+#content .info-widget .content-scroll table tr td.image{
+	text-align: center;
+	width: 30px;
+}
+
+#content .info-widget .content-scroll table tr td.image img{
+	background-color: #fff;
+	padding: 1px;
+	border: 1px solid #999;
+}
+
+#content .info-widget .content-scroll table tr td.content{
+	line-height: 1.2em;
+	vertical-align: top;
+}
+
+#content .info-widget .content-scroll table tr td.edit{
+	text-align: center;
+	vertical-align: top;
+	width: 40px;
+}
+
+#content .info-widget .content-scroll table tr td.date{
+	text-align: center;
+	vertical-align: top;
+	width: 50px;
+}
+
+#content form{
+	padding-top: 3px;
+	margin-left: 20px;
+}
+
+#content #type{
+	margin-top: 10px;
+	padding: 8px;
+}
+
+#content #type a{
+	color: #21759b;
+	text-decoration: none;
+}
+
+#content #type a:visited{
+	color: #2795c7;
+}
+
+#content #type a:hover{
+	color: #d54e21;
+}
+
+#content .actions{
+	background: #ddd;
+	padding: 5px;
+	width: 97%;
+}
+
+#edit{
+	margin: 20px 0 10px 0;
+	padding: 5px;
+	width: 97%;
+}
+
+#edit a{
+	color: #21759b;
+	text-decoration: none;
+}
+
+#edit a:hover{
+	color: #d54e21;
+}
+
+#edit .left{
+	width: 63%;
+}
+
+#edit .right{
+	text-align: center;
+	width: 35%;
+	background-color: #f9f9f9;
+	border: 1px solid #ddd;
+	padding: 3px;
+}
+
+#edit .right #imgholder{
+	background: url(../images/loadingAnimation.gif) no-repeat center;
+}
+
+#edit .right img{
+	background-color: #fff;
+	margin: 10px;
+	padding: 3px;
+	border: 1px solid #333;
+}
+
+#edit .right img.hidder{
+	background-color: transparent;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#edit ul li{
+	padding: 5px;
+}
+
+#edit ul li.title{
+	font-weight: bold;
+	text-align: left;
+	color: #333;
+}
+
+#edit .right ul li.title{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #ddd;
+}
+
+/* pager */
+
+#pager{
+	float: right;
+	padding: 8px 3px 3px 3px;
+}
+
+#pager ul{
+	font-size: 0.9em;
+}
+
+#pager ul li{
+	display: inline;
+	vertical-align: text-top;
+}
+
+#pager ul li img{
+	vertical-align: bottom;
+}
+
+#pager ul li a{
+	padding: 2px;
+	text-decoration: none;
+}
+
+#pager ul li a.text:link{
+	color: #333;
+}
+
+#pager ul li a.text:visited{
+	color: #666;
+}
+
+#pager ul li a.text:hover{
+	background-color: #999;
+	color: #fff;
+}
+
+#pager ul li a.active{
+	color: #333;
+	border-bottom: 2px solid #333;
+}
+
+/* tables */
+
+table.tablesorter {
+	font-family: georgia,sans-serif;
+	margin: 10px 0 10px 0;
+	width: 98%;
+	text-align: left;
+	border: 1px solid #ddd;
+}
+
+table.tablesorter thead tr{
+	background: url(../images/gray-grad.png) repeat-x #ddd;
+	font-size: 0.9em;
+}
+
+table.tablesorter thead tr th{
+	padding: 4px 8px 8px 4px;
+	border: 1px solid #ddd;
+}
+
+table.tablesorter thead tr .header{
+	background: url(../images/sorter/arrow.gif) no-repeat right center transparent;
+	cursor: pointer;
+}
+
+table.tablesorter thead tr .headerSortUp{
+	background-image: url(../images/sorter/asc.gif);
+}
+
+table.tablesorter thead tr .headerSortDown{
+	background-image: url(../images/sorter/desc.gif);
+}
+
+table.tablesorter tbody tr td {
+	color: #333;
+	padding: 8px 4px 8px 4px;
+	vertical-align: top;
+	border-bottom: 1px solid #ddd;
+}
+
+table.tablesorter tbody tr.odd{
+	background-color: #fff;
+}
+
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp{
+	background-color: #cbdcf8;
+}
+
+table.tablesorter tr:hover, table.tablesorter tr.odd:hover{
+	background-color: #e7f0f9;
+}
+
+table.tablesorter tr th.check{
+	width: 10px;
+}
+
+table tr th.date, table tr th.permalink{
+	width: 80px;
+}
+
+table.tablesorter tr th.image{
+	width: 80px;
+}
+
+table.tablesorter tr th.icon{
+	width: 25px;
+}
+
+table.tablesorter tr td img{
+	background-color: #fff;
+	border: 1px solid #bbb;
+	padding: 3px;
+}
+
+table.tablesorter tr td img.icon{
+	background-color: transparent;
+	border: none;
+	padding: 3px;
+}
+
+table.tablesorter tr td.number{
+	text-align: center;
+	width: 40px;
+}
+
+table.tablesorter tr td.status{
+	width: 90px;
+}
+
+table.tablesorter tr td.rel{
+	font-size: 0.9em;
+	background: url(../images/icons/file.png) no-repeat;
+	text-align: center;
+	width: 50px;
+}
+
+table.tablesorter tr td.com{
+	font-size: 0.9em;
+	background: url(../images/icons/baloon.png) no-repeat;
+	text-align: center;
+	width: 50px;
+}
+
+table.tablesorter tr td.com a, table.tablesorter tr td.com a:visited{
+	font-weight: bold;
+	text-decoration: none;
+	color: #ff0000;
+}
+
+table.tablesorter tr td.com a:hover{
+	color: #D54E21;
+}
+
+table a, table a:visited{
+	text-decoration: none;
+	color: #21759B;
+}
+
+table a:hover{
+	color: #D54E21;
+}
+
+/* comments */
+
+table td.author{
+	font-size: 0.9em;
+}
+
+table td.author ul li{
+	margin-bottom: 3px;
+}
+
+table td.comment .comment-text{
+	line-height: 1.3em;
+	padding: 3px;
+	width: 100%;
+	min-height: 60px;
+}
+
+table td.comment .comment-text p{
+	margin-bottom: 10px;
+}
+
+table td.comment p.data{
+	font-size: 0.9em;
+	margin-bottom: 10px;
+}
+
+table td.comment .actions{
+	font-size: 0.9em;
+	margin-top: 10px;
+}
+
+table td.comment .actions span.status{
+	color: #d54e21;
+}
+
+table td.comment img.loader{
+	background: transparent;
+	border: none;
+}
+
+/* images */
+
+#images{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#images .image{
+	text-align: center;
+	border: 1px solid #ddd;
+	padding: 5px;
+	margin: 0 5px 5px 0;
+	float: left;
+}
+
+#images .image img{
+	background-color: #fff;
+	border: 1px solid #999;
+	padding: 3px;
+}
+
+#images p.date{
+	font-size: 0.9em;
+	color: #414141;
+	margin: 5px 0 5px 0;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #bbb;
+}
+
+#images ul.actions{
+	font-size: 0.9em;
+	background: transparent;
+	margin: 0;
+	padding: 3px;
+}
+
+#images ul.actions li{
+	display: inline;
+}
+
+#images ul.actions a{
+	color: #21759b;
+	text-decoration: none;
+}
+
+#images ul.actions a:visited{
+	color: #2795c7;
+}
+
+#images ul.actions a:hover{
+	color: #d54e21;
+}
+
+#images ul.actions a.current{
+	color: #999;
+}
+
+/* footer */
+
+#footer {
+	color: #bbb;
+	background-color: #414141;
+	text-align: right;
+	width: 100%;
+	height: 20px;
+	padding: 10px 0 10px 0;
+	margin-bottom: -20px;
+	position: relative;
+	clear:both;
+}
+
+#footer p{
+	padding-right: 10px;
+}
+
+/* forms */
+
+form input{
+	font-family: georgia,sans-serif;
+	font-size: 1em;
+}
+
+form input.search{
+	text-indent: -5000px;
+	color: #ddd;
+	width: 19px;
+	background: url(../images/search.png) no-repeat transparent;
+	border: none;
+}
+
+form input.search:hover{
+	border: none;
+	cursor: pointer;
+}
+
+form input.button{
+	font-size: 1em;
+	background: url(../images/blue-grad.png) repeat-x #cbdcf8;
+	color: #2795c7;
+	text-decoration: none;
+	margin-top: 10px;
+	padding: 4px;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px
+}
+
+form input.button:hover{
+	color: #21759B;
+	cursor: pointer;
+}
+
+form input, form textarea, form select{
+	font-size: 0.9em;
+	padding: 2px;
+	border: 1px solid #bbb;
+}
+
+form input:hover, form textarea:hover, form select:hover{
+	border: 1px solid #999;
+}
+
+form input.required{
+	background-color: #ffffd4;
+}
+
+form input.error{
+	border: 1px solid #d54e21;
+}
+
+#edit form input.text{
+	width: 100%;
+}
+
+#edit .right input.text, #edit .right input.file, #edit .right select{
+	width: 98%;
+}
+
+#edit form input.title{
+	font-size: 1.8em;
+	width: 99%;
+}
+
+#edit form textarea{
+	font-family: georgia,sans-serif;
+	font-size: 1em;
+	width: 100%;
+	height: 120px;
+}
+
+#edit form select{
+	width: 100%;
+}
+
+#edit form input.file{
+	font-size: 1.1em;
+	width: 100%;
+}
+
+#edit form img{
+	background-color: #fff;
+	padding: 3px;
+	border: 1px solid #999;
+}
+
+form.additional{
+	border-top: 1px dashed #999;
+	margin-top: 25px;
+}
+
+form.additional ul{
+	margin-top: 15px;
+}
+
+/* common */
+		.remove { color:red;
+	text-decoration: underline;
+}
+		.add { color:green;
+	text-decoration: underline;
+}
+
+small{
+	font-weight: normal;
+	font-size: 0.8em;
+	margin-left: 5px;
+}
+
+a:focus{
+	text-decoration: underline;
+}
+
+a.button{
+	background: url(../images/blue-grad.png) repeat-x #cbdcf8;
+	color: #2795c7;
+	text-decoration: none;
+	padding: 6px;
+	border: 1px solid #bbb;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px
+}
+
+a:hover.button{
+	color: #21759B;
+	border: 1px solid #999;
+}
+
+a.add-button{
+	background: url(../images/green-grad.png) repeat-x #7eb82e;
+	color: #008000;
+	text-decoration: none;
+	padding: 8px;
+	border: 1px solid #999;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px
+}
+
+a:hover.add-button{
+	color: #00a801;
+	border: 1px solid #777;
+}
+
+.right{
+	float: right;
+}
+
+.left{
+	float: left;
+}
+
+.error{
+	font-weight: normal;
+	font-size: 0.9em;
+	color: #ff0000;
+}
+
+p.error{
+	font-weight: bold;
+	background: url(../images/error.png) no-repeat left #fff4f4;
+	padding: 15px 15px 15px 50px;
+	margin: 10px 0 10px 0;
+	border: 1px solid #ff0000;
+}
+
+p.message{
+	font-weight: bold;
+	background-color: #fff9d7;
+	padding: 15px;
+	margin: 10px 0 10px 0;
+	border: 1px solid #e2c822;
+}
+
+.clear:after{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clear{
+	display: inline-block;
+}
+
+/* Hides from IE-mac \*/
+
+* html .clear{ height: 1%;}
+.clear{display: block;}
+
+/* End hide from IE-mac */
+
+.rounded{
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px
+}
