@@ -99,13 +99,13 @@ if($cookie){
 }
 
 if($fbuser){ //si ya hizo facebook connect
-	$usercheck = $site->checkUser($fbuser->name, $fbuser->id); //checkea si está logueado
+	$usercheck = $site->checkUser(utf8_encode($fbuser->name), $fbuser->id); //checkea si está logueado
 	$checkuser = $site->fetchObject($usercheck);
 	if($checkuser->id){ //si está logueado brinda la info
 		$userinfo = $site->getUser($checkuser->id);
 		$infouser = $site->fetchObject($userinfo);
 	}else{ //si no está logueado escribe la info del usuario y la muestra
-		$setuser = $site->setUser($fbuser->name, $fbuser->id, now());
+		$setuser = $site->setUser(utf8_encode($fbuser->name), $fbuser->id, now());
 		if($setuser){
 			$userinfo = $site->getUser($checkuser->id);
 			$infouser = $site->fetchObject($userinfo);
@@ -189,7 +189,7 @@ if($fbuser){ //si ya hizo facebook connect
 														  </ol>
 												</fieldset> <!-- end of fieldset -->											    
 													
-													      <p class="user-logged"><?php echo $infouser->nombre; ?> <a href="#" onclick="FB.logout();">(salir)</a></p>
+													      <p class="user-logged"><?php echo utf8_decode($infouser->nombre); ?> <a href="#" onclick="FB.logout();">(salir)</a></p>
 													<?php } //end user banned
 													 ?>
 														<input type="hidden" name="ub" value="<?php echo $infouser->banned; ?>" id="ub" />
@@ -233,7 +233,7 @@ if($fbuser){ //si ya hizo facebook connect
 															<div class="post">
 
 																	<a class="post-category" style="background-image: url(img/cats/<?php echo $categorias[$row_mainideas->categoria]['color'];?>_c.png);" href="index.php?cat=<?php echo $row_mainideas->categoria;?>"><?php echo $categorias[$row_mainideas->categoria]['nombre'];?></a>
-																	<p class="post-meta">Por <?php echo $row_mainideas->usuario; ?> de <a href=""><?php echo utf8_decode($row_mainideas->barrio); ?></a></p>
+																	<p class="post-meta">Por <?php echo utf8_decode($row_mainideas->usuario); ?> de <a href=""><?php echo utf8_decode($row_mainideas->barrio); ?></a></p>
 
 																	<h3><a href="single.php?post=<?php echo $row_mainideas->id; ?>"><?php echo utf8_decode($row_mainideas->idea); ?></a></h3>
 															</div> <!-- end of .post -->
